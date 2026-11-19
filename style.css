@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f8f5;
+    color: #333;
+}
+
+header {
+    background: #176b55;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+.hero {
+    background: #d8eee3;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #176b55;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+.btn {
+    background: #176b55;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #176b55;
+    margin-bottom: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 220px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #ccc;
+}
+
+.animal {
+    font-size: 65px;
+}
+
+.card h3 {
+    margin: 12px;
+    color: #176b55;
+}
+
+.card p {
+    margin: 8px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, select {
+    padding: 13px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button {
+    background: #176b55;
+    color: white;
+    padding: 13px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover, .btn:hover {
+    background: #104c3d;
+}
+
+#message {
+    margin-top: 15px;
+    color: green;
+}
+
+#requestList {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    line-height: 2;
+}
+
+footer {
+    background: #176b55;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .hero h2 {
+        font-size: 25px;
+    }
+}
